@@ -3,17 +3,13 @@
   int motor = 10;
   boolean i =0;
   unsigned long nextTime = 0;
-  int led = 7;
 
-  
-void setup() {
+void setup() 
+  {
   pinMode(A5, INPUT_PULLUP);
   Serial.begin(9600);
   pinMode(motor, OUTPUT);
-  pinMode(led, OUTPUT);
-  
-  
-}
+   }
 
 void loop() {
 
